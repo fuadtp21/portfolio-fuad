@@ -1,0 +1,112 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:'Poppins',sans-serif;
+    background:#090909;
+    color:#fff;
+}
+
+.container{
+    width:90%;
+    max-width:1100px;
+    margin:auto;
+}
+
+header{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    background:linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.9)),#111;
+}
+
+header h1{
+    font-size:70px;
+    color:#ff1a1a;
+    letter-spacing:5px;
+    text-shadow:0 0 25px #ff0000;
+}
+
+header p{
+    margin-top:15px;
+    color:#d6d6d6;
+    font-size:20px;
+}
+
+.btn{
+    margin-top:40px;
+}
+
+.btn a{
+    display:inline-block;
+    margin:10px;
+    padding:14px 30px;
+    background:#ff0000;
+    color:white;
+    text-decoration:none;
+    border-radius:8px;
+    transition:.3s;
+    font-weight:bold;
+}
+
+.btn a:hover{
+    background:white;
+    color:#ff0000;
+    transform:scale(1.05);
+}
+
+section{
+    padding:90px 0;
+}
+
+h2{
+    text-align:center;
+    margin-bottom:40px;
+    color:#ff2b2b;
+}
+
+#about p{
+    text-align:center;
+    line-height:1.8;
+    color:#ddd;
+}
+
+.card{
+    background:#181818;
+    border:1px solid #ff2b2b;
+    padding:20px;
+    margin:15px;
+    text-align:center;
+    border-radius:10px;
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 0 20px red;
+}
+
+.project{
+    background:#181818;
+    padding:25px;
+    border-left:5px solid red;
+    border-radius:10px;
+}
+
+#contact p{
+    text-align:center;
+    margin:12px 0;
+}
+
+footer{
+    text-align:center;
+    padding:25px;
+    background:#111;
+    color:#888;
+}
